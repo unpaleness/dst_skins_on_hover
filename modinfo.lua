@@ -1,11 +1,12 @@
 name = "Show skins amount"
 description = [[
-Version: 0.0.1
+Version: 0.0.2
 Features:
 - shows amount of available skins on hover
+- translations: en, ru
 ]]
 author = "unpaleness"
-version = "0.0.1"
+version = "0.0.2"
 
 forumthread = ""
 
