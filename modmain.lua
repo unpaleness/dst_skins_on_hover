@@ -48,7 +48,6 @@ AddClassPostConstruct("widgets/hoverer", function(self, font, size, text)
     self.OnUpdate = function(self, dt)
         local target = GLOBAL.TheInput:GetWorldEntityUnderMouse()
         if target ~= self.lastTarget then
-            print("HoverText:OnUpdate: new target:", target)
             self.lastTarget = target
             self.lastTargetSkinsAmount = 0
             local prefab = self.lastTarget ~= nil and self.lastTarget.prefab or nil
